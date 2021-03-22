@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Main.js"></script>
+
+<style>
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+button{
+    background-color: darkorchid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body{
+    background: rgb(252,176,69);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,0.08727240896358546) 50%, rgba(131,58,180,1) 100%);
+}
+
+</style>
+
+
+</head>
+<body>
+<h1>Stopwatch</h1>
+
+<div id="StopWatch">0</div>
+<div class="flex-container"></div>
+    <button onclick="StartFun()" id="ButtonStart" type="button">Start</button>
+    <button onclick="StopFun()"  id="ButtonStop"  type="button">Stop</button>
+    <button onclick="ResetFun()" id="ButtonReset" type="button">Reset</button>
+
+</body>
+</html>
